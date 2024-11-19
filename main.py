@@ -52,7 +52,6 @@ if query:
         vectorstore = FAISS.load_local(file_path, embeddings, allow_dangerous_deserialization=True)
         chain = RetrievalQAWithSourcesChain.from_llm(llm=llm, retriever=vectorstore.as_retriever())
         result = chain({"question": query}, return_only_outputs=True)
-        # result will be a dictionary of this format --> {"answer": "", "sources": [] }
         st.header("Answer")
         st.write(result["answer"])
 

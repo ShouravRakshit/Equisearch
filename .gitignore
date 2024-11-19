@@ -176,3 +176,6 @@ pyrightconfig.json
 
 # End of https://www.toptal.com/developers/gitignore/api/python
 
+faiss_store_openai/index.faiss
+faiss_store_openai/index.pkl
+
