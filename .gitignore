@@ -178,4 +178,5 @@ pyrightconfig.json
 
 faiss_store_openai/index.faiss
 faiss_store_openai/index.pkl
+faiss_store_openai/
 
