@@ -20,7 +20,6 @@ pip install -r requirements.txt
 
 ```bash
 OPENAI_API_KEY=your_openai_key
-NEWS_API_KEY=your_newsapi_key
 ```
 
 ### **4. Run the Streamlit app:**
